@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>BykeBazar - Website</title>
-    <text> <b> Welcome to Meher Auto Lines </b></text>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit:400,500,600,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela+Round">
@@ -15,17 +14,35 @@
 </head>
 
 <body style="font-family: 'Varela Round', sans-serif;">
-    <nav class="navbar navbar-light navbar-expand-md" style="background: #002b48;">
-        <div class="container-fluid"><a class="navbar-brand" href="index.html"><img src="assets/img/Group%202.png" width="219" height="76"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="color: rgb(255,255,255);background: #ffffff;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="color: rgb(255,255,255);"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-              <text> <b><marquee> Welcome to Meher Auto Lines </marquee></b></text>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html"><span style="color: rgba(255, 255, 255, 0.62);">Home&nbsp;</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="Locations.html"><span style="color: rgba(255, 255, 255, 0.5);">Locations</span></a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+  <nav class="navbar navbar-light navbar-expand-md" style="background: #002b48;">
+  <div class="container-fluid d-flex flex-column align-items-center">
+      <!-- Welcome Text -->
+      <div style="color: white; font-weight: bold; padding: 1px 0; font-size: 50px;">Welcome to Meher Auto Lines</div>
+
+      <!-- Brand and Toggle -->
+      <div class="d-flex w-100 justify-content-between align-items-center">
+          <a class="navbar-brand" href="index.html">
+              <img src="assets/img/Group%202.png" width="219" height="76">
+          </a>
+          <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="background: #ffffff;">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="navbar-toggler-icon"></span>
+          </button>
+      </div>
+
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse w-100" id="navcol-1">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link active" href="index.html"><span style="color: rgba(255, 255, 255, 0.62);">Home&nbsp;</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Locations.html"><span style="color: rgba(255, 255, 255, 0.5);">Locations</span></a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
     <section>
         <div class="carousel slide" data-ride="carousel" id="carousel-1">
             <div class="carousel-inner">
